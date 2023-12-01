@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root{
+  width: 100vw;
+  height: 100vh;
+  background-color: #4A4A4A;
+  padding: 5vw;
+}
+
+.upBanner, .downBanner {
+  width: 90vw;
+  height: 40vh;
+  background-color: #D9D9D9;
+  display: flex;
+  align-items: center;
+  padding: 1.5vw;
+}
+
+.upBanner {
+  margin-bottom: 5vh;
+}
+
+.upBox {
+  width: 30%;
+  height: 95%;
+  background-color: #E7E7E7;
+  padding: 1vw;
+}
+
+.upMidBox{
+  width: 70%;
+  height: 95%;
+  margin-left: 2vw;
+}
+
+.upMidBox > h2 {
+  font-size: 2rem;
+  margin-bottom: 2vw;
+  font-weight:400;
+}
+.upMidBox > p {
+  margin-bottom: 2vw;
+}
+.upMidBox > h3 {
+  font-size: 3rem;
+  font-style: italic;
+  color: #8D8D8D;
+  font-weight:400;
+}
+
+.downBox{
+  width: 30%;
+  height: 95%;
+}
+.downMidBox{
+  width: 45%;
+  height: 95%;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+.downMidBox > h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+.downRightBox{
+  width: 25%;
+  height: 95%;
+}
